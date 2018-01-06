@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Details For Late Attendance"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+
+        <!-- Label -->
+
+        <TextView
+
+            android:text="Class"
+
+            style="@style/CategoryStyle" />
+
+
+
+        <!-- Input field -->
+
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="0dp"
+
+            android:layout_weight="2"
+
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+
+                android:id="@+id/class_update"
+
+                android:hint="enter class"
+
+                android:inputType="textCapWords"
+
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+
+        <!-- Label -->
+
+        <TextView
+
+            android:text="Subject"
+
+            style="@style/CategoryStyle" />
+
+
+
+        <!-- Input field -->
+
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="0dp"
+
+            android:layout_weight="2"
+
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+
+                android:id="@+id/sub_update"
+
+                android:hint="enter subject"
+
+                android:inputType="textCapWords"
+
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+
+        <!-- Label -->
+
+        <TextView
+
+            android:text="Date"
+
+            style="@style/CategoryStyle" />
+
+
+
+        <!-- Input field -->
+
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="0dp"
+
+            android:layout_weight="2"
+
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+
+                android:id="@+id/date"
+
+                android:hint="yyyy-mm-dd"
+
+                android:inputType="textCapWords"
+
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/subject"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+
+        <!-- Label -->
+
+        <TextView
+
+            android:text="Roll no."
+
+            style="@style/CategoryStyle" />
+
+
+
+        <!-- Input field -->
+
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+
+            android:layout_width="0dp"
+
+            android:layout_weight="2"
+
+            android:orientation="vertical">
+
+
+
+
+            <EditText
+
+                android:id="@+id/roll"
+
+                android:hint="enter roll no."
+
+                android:inputType="textCapWords"
+
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/group_att"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present "
+            android:layout_weight="1"
+            android:id="@+id/present"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absent "
+            android:layout_weight="1"
+            android:id="@+id/absent"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_update"
+        android:text="SUBMIT"/>
+</LinearLayout>

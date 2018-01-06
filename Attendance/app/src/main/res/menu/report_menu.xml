@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReportClass">
+    <item
+        android:id="@+id/date_wise"
+        android:title="DateWisse Report"
+        app:showAsAction="never"
+            />
+    <item
+        android:id="@+id/roll_wise"
+        android:title="PercentageWise"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/pdf_report"
+        android:title="Generate Excel Report"
+        app:showAsAction="never"
+        />
+
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="update"
+        android:id="@+id/update_class"
+        />
+    <item
+        android:title="Delete"
+        android:id="@+id/delete_class"
+        />
+    <item
+        android:id="@+id/report"
+        android:title="Report"
+        />
+    <item
+        android:id="@+id/lateatt"
+        android:title="Late attendance"
+        />
+</menu>
