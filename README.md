@@ -6,3 +6,8 @@ Android App which will allow teachers to:
 3.App will store their respective data about attendance in local database using sqlite database locally.
 4.App will show Datewise report and Rollnumberwise Report of attendance for respective classes.
 5.It will also generate an excel report file programatically.
+
+Technologies used:
+1)Java
+2)sqlite local database android
+3)jxl library for generation of excel file.
